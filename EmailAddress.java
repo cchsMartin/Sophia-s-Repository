@@ -1,4 +1,6 @@
-
+//Great.
+//The only change is that your variables should be named using lowercase letters, only using capital letters
+//for the second word, onward.
 /**
  *Author: Sophia Hildebrand
  *Date: Sep 29, 2020
@@ -13,6 +15,7 @@ public class EmailAddress {
 		// input from user
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("What is your first name? ");
+		//change all first words of variables to lowercase. It's standard java style. firstName not FirstName.
 		String FirstName = keyboard.nextLine(); // stores the next thing typed as a string
 		System.out.println("What is your middle name? ");
 		String MiddleName = keyboard.nextLine(); // stores the next thing typed as a string
